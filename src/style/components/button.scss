@@ -1,0 +1,25 @@
+button {
+
+    text-align: center;
+    border-radius: 8px;
+    font-style: normal;
+    line-height: normal;
+    border: 2px solid transparent;
+    font-family: "Inter","Poppins";
+    font-size: 14px;
+    font-weight: 500;
+    padding:6px 16px;
+    &.primary-btn {
+      background: var(--white);
+      color: var(--green);
+      border-color: var(--green);
+      &:hover{
+        background: var(--green);
+        color:white;
+        border-color: var(--green);
+        transition: all 0.5s ;
+      }
+    }
+  
+ 
+  }

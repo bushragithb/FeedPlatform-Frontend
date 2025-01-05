@@ -1,0 +1,20 @@
+.input-wrap {
+    background-color: white;
+    border: 1px solid var(--gray);
+    border-radius: 10px;
+    padding: 0px 5px;
+
+    input {
+        padding: 5px;
+        background: var(--white);
+
+        &::placeholder { 
+            font-size: 14px; 
+        }
+
+        &:focus { 
+            border: none; 
+            outline: none; 
+        }
+    }
+}
